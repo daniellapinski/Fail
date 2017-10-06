@@ -3,3 +3,4 @@ function ask() {
   alert("Hi " + name + " I'm Daniel")
 }
 ask();
+console.log("greg")
