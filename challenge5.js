@@ -1,4 +1,4 @@
-$(document).ready(function () {
-    alert("Hello World");
-    console.log("aloha")
+$("#life").click(function(){
+    $("p#display").append("#herro");
+    console.log("wassup")
 });
