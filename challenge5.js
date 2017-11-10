@@ -15,23 +15,67 @@ $("#challenge5vars").append(`
 $("#challenge5predictions").append(`
   <table>
     <tr>
-      <th></th>
+      <th><b>Addition</b</th>
       <td></td>
     </tr>
     <tr>
-      <th></th>
+      <th>myInt+myInt?</th>
       <td></td>
     </tr>
     <tr>
-      <th></th>
+      <th>myInt+myString?</th>
       <td></td>
     </tr>
     <tr>
-      <th></th>
+      <th>myInt+myNumString?</th>
       <td></td>
     </tr>
     <tr>
-      <th></th>
+      <th>myNumString+myInt?</th>
       <td></td>
     </tr>
+    <tr>
+      <th><b>Fancier addition</b></th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>myInt+myNumString+myString?</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>myInt+myInt+myString?</th>
+      <td></td>
+    </tr>
+     <tr>
+      <th>myString+myInt+myInt?</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th><b>Subtraction</b></th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>myInt-myString?</th>
+      <td></td>
+    </tr>
+   <tr>
+      <th>myInt-myNumString?</th>
+      <td></td>
+  </tr>
+   <tr>
+      <th>myString-myNumString</th>
+      <td></td>
+  </tr>
+   <tr>
+      <th><b>Comparisons</b></th>
+      <td></td>
+  </tr>
+   <tr>
+      <th>myInt==myNumString?</th>
+      <td></td>
+  </tr>
+  <tr>
+       <th>myInt===myNumString</th>
+       <td></td>
+  </tr>   
   </table>`);
