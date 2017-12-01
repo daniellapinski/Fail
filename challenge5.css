@@ -1,5 +1,28 @@
-table, th, td {
+h1 {
+font-family: fantasy;
+color:Fuchsia;
+}
+h3 {
+  font-family: monospace;
+  color:indigo;
+  font-size: 20px;
+}
+
+.mathtype {
+font-size: 20px;
+  color:firebrick;
+}
+.qa {
+  color:black;
+}
+table, td {
     border: 4px solid black;
     background-color: cyan;
     padding: 20px;
+};
+
+th {
+  font-size: 5px;
+  font-family: cursive;
+  color: red;
 };
